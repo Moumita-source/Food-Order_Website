@@ -7,4 +7,7 @@
 #Admin page
 ![categorypic](https://user-images.githubusercontent.com/84282316/128610480-df4cc136-3b0e-46cf-a1c3-c8bb981f7dc9.PNG)
 
+#Front page
+
+
 
