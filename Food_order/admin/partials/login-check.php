@@ -1,0 +1,15 @@
+<?php
+
+//  Authorization- Access control
+//Check whether user is logged in or not
+if(!isset($_SESSION['user'])){  //Checking if user is not logged in
+
+//    User is not logged in
+// Redirect to login page with message
+  $_SESSION['no-login-message']="<div class='error text-center'>Please login to access admin panel</div>";
+//   Redirect to login page
+  header('location:'.SITEURL.'admin/login.php');
+}
+
+
+?>
